@@ -1,0 +1,131 @@
+body{
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #067f92;
+}
+.container{
+  width: 70%;
+  height: 70vh;
+  background-image: url(../images/robot-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.container-left-box{
+  width: 50%;
+  height: 100%;
+  /* background-color: red; */
+  float: left;
+  border-top-left-radius: 25px;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  padding: 20px;
+  box-sizing: border-box;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+.question-box{
+  width: 50%;
+  height: auto;
+  background-color: #067f92;
+  padding: 5px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  text-align: center;
+  text-overflow: initial;
+  word-break: break-all;
+  margin-bottom: 10px;
+  position: relative;
+  color: white;
+  left: 20px;
+}
+
+.container-right-box{
+  width: 50%;
+  height: 100%;
+  /* background-color: rgb(69, 3, 169); */
+  float: left; 
+  border-top-right-radius: 25px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  padding: 20px;
+  box-sizing: border-box;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+.answer-box{
+  width: 50%;
+  height: auto;
+  background-color: #c9a39c;
+  padding: 5px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  text-align: center;
+  text-overflow: initial;
+  word-break: break-all;
+  margin-bottom: 10px;
+  position: relative;
+  color: white;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+/* end container coding */
+
+/* start question box coding */
+.form-container{
+  width: 70%;
+  height: 100px;
+  background-color: #325358;
+  padding: 20px;
+  box-sizing: border-box;
+  animation: bgColor 5s infinite;
+}
+.form-container input{
+  width: 85%;
+  padding: 15px;
+  border: 2px solid #ccc;
+  outline: none;
+  border-radius: 20px;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.form-container i{
+  padding: 10px;
+  font-size: 20px;
+  color: #067f92;
+  background-color: white;
+  border-radius: 50%;
+}
+
+footer{
+  width: 70%;
+  height: auto;
+  background-color: black;
+  display: flex;
+  color: white;
+  justify-content: center;
+  font-size: 27px;
+  animation: bgColor 5s infinite;
+
+}
+
+@keyframes bgColor{
+  0%{background-color: #067f92;}
+  25%{background-color: #c9a39c;}
+  50%{background-color: #3e3e3e;}
+  75%{background-color: #b37645;}
+  100%{background-color: #505448;}
+
+}
+
+/* end question box coding */

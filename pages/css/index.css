@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #4285f4;
+}
+.page{
+  padding: 30px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px #7ccc;
+  border-radius: 20px;
+}
+.page h1{
+  color: #4285f4;
+  font-family: sans-serif;
+}
+.page input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.page button{
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 27px;
+  color: white;
+  background-color: #4285f4;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
